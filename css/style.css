@@ -1,0 +1,111 @@
+.page {
+    margin: 0;
+    padding: 3% 0 3% 6%;
+  }
+  
+  .heading {
+    margin: 0 0 2% 0;
+    font-family: sans-serif;
+    color: #4D5152;
+  }
+  
+  .grid {
+    display: grid;
+    width: 1200px;
+    height: 800px;
+    gap: 15px;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "row-1-num-1 row-1-num-1 row-1-num-1   row-1-num-2 row-1-num-2 row-1-num-2"
+      "row-2-num-1 row-2-num-1 row-2-num-1   row-2-num-2 row-2-num-2 row-2-num-2"
+      "row-3-num-1 row-3-num-1   row-3-num-2 row-3-num-2    row-3-num-3    row-3-num-4"
+      "row-4-num-1   row-4-num-2 row-4-num-2 row-4-num-2   row-4-num-3 row-4-num-3";
+  }
+  
+  .small-grid {
+    display: grid;
+    gap: 15px;
+    grid-template-areas:
+      "small-row-1-num-1 small-row-1-num-1   small-row-1-num-2 small-row-1-num-2   small-row-1-num-3 small-row-1-num-3"
+      "small-row-2-num-1 small-row-2-num-1 small-row-2-num-1   small-row-2-num-2 small-row-2-num-2 small-row-2-num-2";
+   }
+  
+  .grid__item--row-1-num-1 {
+    grid-area: row-1-num-1;
+    background: url("http://via.placeholder.com/600x150/AFDFBF/626969") center;
+  }
+  
+  .grid__item--row-1-num-2 {
+    grid-area: row-1-num-2;
+    background: url("http://via.placeholder.com/600x150/68C5B8/5E6969") center;
+  }
+  
+  .grid__item--row-2-num-1 {
+    grid-area: row-2-num-1;
+    background: url("http://via.placeholder.com/600x320/FA688A/FFFFFF") center;
+  }
+  
+  .grid__item--row-2-num-2 {
+    grid-area: row-2-num-2;
+  }
+  
+  .grid__item--row-3-num-1 {
+    grid-area: row-3-num-1;
+    background: url("http://via.placeholder.com/400x185/588CC7/FFFFFF") center;
+  }
+  
+  .grid__item--row-3-num-2 {
+    grid-area: row-3-num-2;
+    background: url("http://via.placeholder.com/400x185/588CC7/FFFFFF") center;
+  }
+  
+  .grid__item--row-3-num-3 {
+    grid-area: row-3-num-3;
+    background: url("http://via.placeholder.com/200x195/588CC7/FFFFFF") center;
+  }
+  
+  .grid__item--row-3-num-4 {
+    grid-area: row-3-num-4;
+    background: url("http://via.placeholder.com/200x195/588CC7/FFFFFF") center;
+  }
+  
+  .grid__item--row-4-num-1 {
+    grid-area: row-4-num-1;
+    background: url("http://via.placeholder.com/200x145/6652AD/FFFFFF") center;
+  }
+  
+  .grid__item--row-4-num-2 {
+    grid-area: row-4-num-2;
+    background: url("http://via.placeholder.com/600x135/6652AD/FFFFFF") center;
+  }
+  
+  .grid__item--row-4-num-3 {
+    grid-area: row-4-num-3;
+    background: url("http://via.placeholder.com/400x135/6652AD/FFFFFF") center;
+  }
+  
+  .small-grid__item--row-1-num-1 {
+    grid-area: small-row-1-num-1;
+    background: url("http://via.placeholder.com/200x165/8A95EF/FFFFFF") center;
+  }
+  
+  .small-grid__item--row-1-num-2 {
+    grid-area: small-row-1-num-2;
+    background: url("http://via.placeholder.com/200x165/8A95EF/FFFFFF") center;
+  }
+  
+  .small-grid__item--row-1-num-3 {
+    grid-area: small-row-1-num-3;
+    background: url("http://via.placeholder.com/200x165/8A95EF/FFFFFF") center;
+  }
+  
+  .small-grid__item--row-2-num-1 {
+    grid-area: small-row-2-num-1;
+    background: url("http://via.placeholder.com/300x150/FFC569/6B6B64") center;
+  }
+  
+  .small-grid__item--row-2-num-2 {
+    grid-area: small-row-2-num-2;
+    background: url("http://via.placeholder.com/300x150/FFC569/6B6B64") center;
+  }
